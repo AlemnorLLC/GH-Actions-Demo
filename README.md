@@ -1,4 +1,4 @@
-# CompoSecureDemo
+# GH ActionsDemo
 
 ## GitHub Actions workflows
 
