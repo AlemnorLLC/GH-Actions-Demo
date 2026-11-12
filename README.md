@@ -7,7 +7,7 @@ These example workflows demonstrate build and test automation, pull request chec
 | Workflow | Trigger | Description |
 | --- | --- | --- |
 | `01-hello-world.yml` | Every push | Checks out the repository and prints a sample build message. |
-| `02-build-test.yml` | Every push | Sets up .NET 8, restores dependencies, builds in Release configuration, and runs tests. |
+| `02-build-test.yml` | Every push | Sets up .NET 10, restores dependencies, builds in Release configuration, and runs tests. |
 | `03-pr-validation.yml` | Pull requests targeting `main` | Runs the .NET 8 restore, Release build, and test steps as a pull request check. |
 | `04-codeql.yml` | Pull requests targeting `main` | Initializes CodeQL for C#, autobuilds the project, and uploads analysis results for security scanning. |
 | `05-dependency-review.yml` | Pull requests targeting `main` | Runs GitHub's dependency review action to check dependency changes. |
